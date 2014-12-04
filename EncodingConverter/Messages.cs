@@ -28,14 +28,20 @@ namespace EncodingConverter
         {
             return "Wrong number of commands\n" + GetHelp() ;
         }
-        public static String GetNoFoundCommandsError() {
+        public static String GetNoFoundCommandsError() 
+        {
             
             return "It is not recognized as a command\n" + GetHelp();
         }
 
-        public static String GetEmptyCommandsError() {
-            return "You didn't pass any commnds.\n"+GetHelp();
+        public static String GetEmptyCommandsError() 
+        {
+            return "You didn't pass any commands.\n"+GetHelp();
         }
 
+        public static String GetFileNotFoundError()
+        {
+            return "You put nonexistent file or file was corrupted";
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,16 +17,14 @@ namespace EncodingConverter
                 ParserCommandLine pc = new ParserCommandLine();
                 EncodingInfo ei = pc.ParseToObject(args);
                 Console.WriteLine(ei);
-
+                
                 Encoder encoder = new Encoder(10000);
                 encoder.Encode(ei);
                 Console.WriteLine("done");            
             }
-            catch (ArgumentException ex) 
-            {
+            catch (ArgumentException ex) {
                 Console.WriteLine(ex.Message);
             }
-            Console.Read();
         }
        
     }

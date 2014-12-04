@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +10,8 @@ namespace EncodingConverter
     {
         
 
-        public EncodingInfo ParseToObject(String[] args) {
+        public EncodingInfo ParseToObject(String[] args) 
+        {
 
             EncodingInfo ei = new EncodingInfo();
             
@@ -27,6 +28,8 @@ namespace EncodingConverter
                         case "-if":
                             {
                                 ei.InFile = args[++i];
+                                if (!File.Exists(ei.InFile))
+                                    throw new ArgumentException(Messages.GetFileNotFoundError());
                                 break;
                             }
                         case "-of":
