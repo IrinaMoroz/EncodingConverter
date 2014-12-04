@@ -10,33 +10,33 @@ namespace EncodingConverter
     {
         public static String GetHelp()
         {
-            return "To use converter you should pass string in this format:\n"+
-                "-i<input file code page> -o<output file code page> -if<input file name> -of<output file name>\n"+
-                "You can use next parameters:\n" +
-                    "-help - call help\n" +
-                    "-if - set the name of input file after this key\n" +
-                    "-of - set the name of result/output file after this key\n" +
-                    "-i - the encoding of input file\n" +
-                    "-o - the encoding of result file\n"+
-                    "You can use these Encoding types:\n"+
-                    "ASCII, UTF-7, UTF-8, UTF-16, UTF-32 and DBCS \n" +
+            return "To use converter you should pass string in this format:"+Environment.NewLine+
+                "-i<input file code page> -o<output file code page> -if<input file name> -of<output file name>" + Environment.NewLine +
+                "You can use next parameters:" + Environment.NewLine +
+                    "-help - call help" + Environment.NewLine +
+                    "-if - set the name of input file after this key" + Environment.NewLine +
+                    "-of - set the name of result/output file after this key" + Environment.NewLine +
+                    "-i - the encoding of input file" + Environment.NewLine +
+                    "-o - the encoding of result file" + Environment.NewLine +
+                    "You can use these Encoding types:" + Environment.NewLine +
+                    "ASCII, UTF-7, UTF-8, UTF-16, UTF-32 and DBCS " + Environment.NewLine +
                     "Please, ensure encodings have been written in right format";
         }
 
      
         public static String GetWrongNumberOfCommandsError()
         {
-            return "Wrong number of commands\n" + GetHelp() ;
+            return "Wrong number of commands" + Environment.NewLine + GetHelp();
         }
         public static String GetNoFoundCommandsError() 
         {
-            
-            return "It is not recognized as a command\n" + GetHelp();
+
+            return "It is not recognized as a command" + Environment.NewLine + GetHelp();
         }
 
         public static String GetEmptyCommandsError() 
         {
-            return "You didn't pass any commands.\n"+GetHelp();
+            return "You didn't pass any commands." + Environment.NewLine + GetHelp();
         }
 
         public static String GetFileNotFoundError()
