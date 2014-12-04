@@ -1,0 +1,12 @@
+F:\SourseCode\CShar\EncodingConverter\EncodingConverter\obj\Debug\EncodingConverter.csprojResolveAssemblyReference.cache
+F:\SourseCode\CShar\EncodingConverter\EncodingConverter\bin\Debug\converter.exe.config
+F:\SourseCode\CShar\EncodingConverter\EncodingConverter\bin\Debug\converter.exe
+F:\SourseCode\CShar\EncodingConverter\EncodingConverter\bin\Debug\converter.pdb
+F:\SourseCode\CShar\EncodingConverter\EncodingConverter\obj\Debug\converter.exe
+F:\SourseCode\CShar\EncodingConverter\EncodingConverter\obj\Debug\converter.pdb
+F:\SourseCode\repozitories\EncodingConverter\EncodingConverter\bin\Debug\converter.exe.config
+F:\SourseCode\repozitories\EncodingConverter\EncodingConverter\obj\Debug\converter.exe
+F:\SourseCode\repozitories\EncodingConverter\EncodingConverter\obj\Debug\converter.pdb
+F:\SourseCode\repozitories\EncodingConverter\EncodingConverter\bin\Debug\converter.exe
+F:\SourseCode\repozitories\EncodingConverter\EncodingConverter\bin\Debug\converter.pdb
+F:\SourseCode\repozitories\EncodingConverter\EncodingConverter\obj\Debug\EncodingConverter.csprojResolveAssemblyReference.cache
