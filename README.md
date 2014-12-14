@@ -12,7 +12,7 @@ converter.exe i "input file code page" -o "output file code page" -if "input fil
 <li>i - the encoding of input file</li>
 <li>o - the encoding of result file</li>
 </ul>
-<br>Используемые технологии:
+Используемые технологии:
 <ul>
 <li>Visual Studio 2013</li>
 <li>.Net/C# console</li>
