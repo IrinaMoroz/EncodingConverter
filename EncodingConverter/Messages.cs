@@ -19,7 +19,7 @@ namespace EncodingConverter
                     "-i - the encoding of input file" + Environment.NewLine +
                     "-o - the encoding of result file" + Environment.NewLine +
                     "You can use these Encoding types:" + Environment.NewLine +
-                    "ASCII, UTF-7, UTF-8, UTF-16, UTF-32 and DBCS " + Environment.NewLine +
+                    "ASCII, UTF-7, UTF-8, UTF-16, UTF-32" + Environment.NewLine +
                     "Please, ensure encodings have been written in right format";
         }
 
